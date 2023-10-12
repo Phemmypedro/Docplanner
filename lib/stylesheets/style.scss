@@ -1,0 +1,177 @@
+@import "varries";
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .nav-link {
+    display: flex;
+    list-style-type: none;
+    
+  }
+  .nav-link a {
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px; 
+    color: $textcolor; 
+    &:hover{
+        color: $texthovercolor !important;
+    }
+}
+.active{
+   color: $texthovercolor !important; 
+}
+// header section ends
+// main section start
+.hero-section{
+    color: $textcolor;
+    font-weight: 100;
+}
+.logo{
+    text-align: center;
+}
+.intro-text{
+    color: $texthovercolor;
+}  
+ .container{
+display: flex;
+    width: 70%;
+    margin: 20px auto;
+    border: 23px; ;
+} 
+.desk-container{
+    width: 50%;
+    padding: 15px;
+    
+    
+}
+.box-container{
+    display: flex;
+    justify-content:space-around ;
+    color: #fff;
+}
+.item-one{
+    height: 300px; 
+    padding: 30px;
+    width: 250px;
+    background-color: #00ccb1;
+    border-radius: 15px;
+}
+.inside-text{
+    line-height: 25px;
+}
+.country{
+    margin-top: -60px;
+    color: #fff;
+    background-color: #00ccb1;
+    margin-top: 27%;
+}
+.item-two{
+    height: 300px;
+    padding: 30px;
+    width: 290px;
+    background-color: #3d83df;
+    border-radius:15px;
+}
+.country-two{
+    margin-top: 25%;
+    background-color: #3d83df;
+    color: #fff;
+}
+.item-three{
+    height: 300px;
+    padding: 30px;
+    width:300px ;
+    background-color: #1b2734;
+    border-radius: 15px;
+    color: #fff;
+}
+// <!-- global company section       -->
+   
+.thrid-section{
+    display: flex;
+    width: 100px;
+    margin: 30px;
+}
+.global-company{
+    color: $texthovercolor;
+}
+.first-image{
+    display: flex;
+}
+.image-two{
+    display: flex;
+}
+.image-three{
+    display: flex;
+}
+.image-four{
+    display: flex;
+}
+.fourth-section{
+    background-color: #d0faf4;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fourth-header{
+    color: $texthovercolor;
+}
+.fourth-text{
+    color: $textcolor;
+}
+.leader-icon{
+    justify-content: space-between;
+    // <!-- healthcare section start -->
+}
+
+.flag-icon{
+    color: $texthovercolor;
+}
+.country-A{
+    height: 200px;
+    width:200px ;
+    background-color:#fff;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-top: 20px;
+}
+.country-b{
+    height: 200px;
+    width:200px ;
+    background-color:#fff;
+    
+}
+.country-c{
+    height: 200px;
+    width:200px ;
+    background-color:#fff;
+}
+.country-d{
+    height: 200px;
+    width:200px ;
+    background-color:#fff;
+}
+// <!-- healthcare section ends -->
+// improve lives section start
+
+.improve-lives{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-b{
+    display: flex;
+}
+
+
+
+
+
+    
